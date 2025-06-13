@@ -1,71 +1,60 @@
-# 📊 Power BI Visualization Project – Superstore Dataset
+# 📊 Task 8: Sales Dashboard using Power BI
 
-## 📁 Project Overview
-
-This project uses the **Superstore** dataset to build an interactive Power BI dashboard that answers key business questions using visuals. The goal is to uncover insights in areas like sales trends, profitability, and regional performance.
-
----
-
-## 🛠️ Tools Used
-
-- **Power BI Desktop**
-- **Superstore Dataset** (`.csv`)
-- **DAX & Data Modeling (Optional)`)
-- **Export to PDF & `.pbix` file
+## 🎯 Objective
+The goal of this task is to design an interactive sales dashboard in Power BI that visualizes performance by product category, region, and time. It helps business users quickly understand trends and take data-driven decisions.
 
 ---
 
-## 📌 Visualizations Created
-
-### 1. 📊 **Sales by Region (Clustered Bar Chart)**
-Shows total sales across the four U.S. regions.
-> *Fields:* `Region` (Y-axis), `Sales` (X-axis)
-
-### 2. 📈 **Monthly Sales Trend (Line Chart)**
-Displays how sales evolve over time by month/year.
-> *Fields:* `Order Date` (X-axis with Month Hierarchy), `Sales` (Y-axis)
-
-### 3. 📊 **Profit by Category (Clustered Column Chart)**
-Reveals which product categories are the most/least profitable.
-> *Fields:* `Category` (X-axis), `Profit` (Y-axis)
-
-
-### 4. 🌳 **Sub-Category Performance (TreeMap)**
-Visualizes profit contribution by sub-category.
-> *Fields:* `Sub-Category` (Group), `Profit` (Values)
-
-### 5. 🔄 **Sales vs Profit (Scatter Chart)**
-Compares sales and profit by product or sub-category.
-> *Fields:* `Sales` (X-axis), `Profit` (Y-axis), `Product Name` or `Sub-Category` (Details), `Region` (Legend – optional)
+## 🧰 Tools Used
+- **Power BI Desktop** (for visual design and interactivity)
+- **Superstore_Sales.csv** (as the sample dataset)
 
 ---
 
-## 🧩 Additional Features
-
-### 🔍 Slicers (Interactive Filters)
-Allows user-driven filtering by:
-- Region
-- Category
-- Order Date
-
-### ✏️ Insight Text Boxes
-Annotated interpretations added using **Insert → Text Box**.
-Example:
-> “Technology has the highest profit margin.”
+## 📂 Files Included
+- `Superstore_Sales.csv` – The raw dataset used in the project.
+- `Dashboard Screenshot.png` – Visual representation of the Power BI dashboard.
+- `insights.txt` – Contains 8 key insights derived from the data.
+- `README.md` – This file.
 
 ---
 
-## 💾 Saving and Exporting
+## 📈 Dashboard Overview
 
-- **Save Report:**  
-  `File → Save As → PowerBI_Report.pbix`
-
-- **Export to PDF:**  
-  `File → Export → Export to PDF`
+### ✅ Visuals Created:
+1. **Donut Chart** – Total Sales by Category (Furniture, Technology, Office Supplies)
+2. **Bar Chart** – Count of Orders by Region (West, East, South, Central)
+3. **Line Chart** – Monthly Sales Trend over time
+4. **Slicer** – Region filter to interactively analyze regional data
 
 ---
 
-## 📸 Screenshots
+## 🔍 Key Insights
+- Furniture had the highest share of sales (~36.39%)
+- West region showed the highest order volume
+- Peak sales occurred in October 2018 ($77K+)
+- Office Supplies, while lower in sales, performed consistently
+- Central and East regions show room for growth
 
-Include screenshots of your visuals (PNG/JPEG) here for documentation or GitHub preview.
+---
 
+## 📦 Output
+A clean, professional, and interactive dashboard that provides valuable business insights through simple visualizations.
+
+---
+
+## 📤 Submission Info
+This dashboard was built as part of the Data Analyst Internship - Task 8 assignment.
+
+**Submission Link:** [https://forms.gle/qumsSk73uxUZ6LYB9](https://forms.gle/qumsSk73uxUZ6LYB9)
+
+---
+
+## ✅ Instructions to Run
+No setup required. Simply open the `.pbix` file in Power BI Desktop or view the dashboard screenshot and insights included in this repository.
+
+---
+
+## 👨‍💻 Author
+[Your Name]  
+Intern - Data Analyst Track  

@@ -1,0 +1,17 @@
+INSIGHTS - Task 8 Sales Dashboard (Power BI)
+
+1. The Furniture category accounted for the highest share of total sales at approximately 36.39%, followed by Technology and Office Supplies.
+
+2. The West region had the largest number of orders, showing strong customer activity compared to other regions.
+
+3. October 2018 recorded the peak monthly sales of approximately $77,448.13, indicating a possible seasonal or promotional spike.
+
+4. Despite having the lowest total sales, the Office Supplies category maintained a consistent sales trend throughout the year.
+
+5. Sales performance showed a slight downward trend post-Q4 2018, which could signal a need for strategic interventions.
+
+6. Technology sales, while not the highest in volume, had stable performance across most months and regions.
+
+7. Central and East regions had comparatively lower order counts, suggesting potential market growth opportunities.
+
+8. The Region slicer on the dashboard allows easy analysis of performance breakdown by geographical area.
